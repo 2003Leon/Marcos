@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h> 
+
+int main(void){
+int a,e,div,pot;
+printf("indica el primer numero: \n");
+scanf("%d",&a);
+printf("indica del segundo numero: \n");
+scanf("%d",&e);
+div=a/e;
+printf(" la divicion de los dos numeros: %d", div );
+pot=pow(a, e);
+printf(" el resultado de la potencia: %d ", pot,a,e );
+return 0;
+}
