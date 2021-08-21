@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void){
+	float calif[20]={19,20,22,24,21,26,22,20,19,18,16,19,20,22,21,19,20,19,20,22};
+	float sum, prom,var, des;
+	int i=0, j=0;
+	printf("varianza y desviacion estandar...\n");
+	for(i=0; i<20; i++){
+		sum=sum+calif[i];
+		prom=sum/20;}
+	j=i;
+	for(j=0;j<20;j++){
+		var+=pow(calif[j]-prom,2);}
+	des=pow(var/20,.5);
+	printf("la varianza de los datos:%.2f\n", var/20);
+	printf("la desviacion de los datos: %.2f",des);
+	return 0;
+}
