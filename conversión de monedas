@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h> 
+
+int main(void){
+int a,div;
+printf("indica la cantidad de pesos a cambiar : \n");
+scanf("%d",&a);
+div=a/20;
+printf("cambio a dolares : %d", div );
+return 0;
+}
