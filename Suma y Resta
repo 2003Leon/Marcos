@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h> 
+
+int main(void){
+int a,b,sum,res;
+printf("indica el primer numero: \n");
+scanf("%d",&a);
+printf("indica del segundo numero: \n");
+scanf("%d",&b);
+sum=a+b;
+printf(" la suma de los dos numeros: %d", sum );
+res=a-b;
+printf(" la resta de los dos numeros:  %d ", res,a,b );
+return 0;
+}
