@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float metros, kilometros;
+	cout<<"ingrese cantidad en metros:";
+	cin>> metros;
+	kilometros=metros/1000;
+	cout<<"la respuesta es:"<<kilometros<<"km";
+	return(0);
+}
