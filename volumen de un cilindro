@@ -1,0 +1,14 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+double R,V,H;
+main()
+{
+cout<<"ingresa el valor del radio:";
+cin>> R;
+cout<<"ingresa el valor de la altura:";
+cin>>H;
+V=3.1416*pow(R,2)*H;
+cout<<"el volumen del cilindro es igual a:"<<V<<endl;
+return 0;
+}
