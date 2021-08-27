@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <math.h> 
+
+int main(){
+   int N1,N2;
+   printf("Porfavor ingrresa el primer numero:");
+   scanf ("%d",&N1 );
+   printf("Porfavor ingrresa el segundo numero:");
+   scanf ("%d",&N2 );
+
+    if (N1>=N2)
+
+	 printf("\n La diferencia de los numero es: %d",(N1-N2));
+	
+     else
+		printf("\n La diferencia de los numeros es: %d",(N2-N1));
+		
+		
+	
+	 return 0;
+}
