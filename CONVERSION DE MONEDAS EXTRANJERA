@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <math.h> 
+
+int main(void){
+	int moneda_ex, moneda_mex;
+float total;
+printf("indica la cantidad de pesos a cambiar : \n");
+scanf("%d", &moneda_mex);
+printf("indica la moneda que desea cambiar:\n 1. Dolares\n 2. Yenes\n 3. Euro\n 4. Libras \n 5. Rublo\n 6. Dolar Canadiense\n");
+scanf("%d", &moneda_ex);
+
+
+total=0;
+switch(moneda_ex){
+		case 1:
+			total=moneda_mex*0.049;
+			break;
+		case 2:
+			total=moneda_mex*5.41;
+			break;
+		case 3:
+			total=moneda_mex*0.042;
+			break;
+		case 4:
+			total=moneda_mex*0.36;
+			break;
+		case 5:
+			total=moneda_mex*3.65;
+			break;
+		case 6:
+			total=moneda_mex*0.062;
+			break;
+		default:
+			printf("Error");	
+	}
+	
+	printf("%d pesos mexicanos equivalen a %f en la moneda que elegiste", moneda_mex, total);
+	return 0;
+}
