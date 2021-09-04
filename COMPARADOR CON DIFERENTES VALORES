@@ -1,0 +1,78 @@
+#include <stdio.h>
+#include <math.h> 
+
+int main(){
+	 int A,B,C;
+   printf("Por favor ingrresa el primer numero:");
+   scanf ("%d",&A );
+   printf("Por favor ingrresa el segundo numero:");
+   scanf ("%d",&B );
+   printf("Por favor ingrresa el segundo numero:");
+   scanf ("%d",&C );
+   
+   {
+       if(A > 3 )
+         printf("la variable A es mayor que 3: %d\n", A );
+        else
+         printf("la variable A es menor que 3:%d\n",A);
+   }
+   { 
+        if(A > C )
+         printf("la variable A es mayor que C :%d\n",A,C);
+        else
+         printf("la variable A es menor que C :%d\n",A,C);
+   }
+   {
+   	    if(B != C )
+         printf("la variable B es igual que C:%d\n",B,C);
+        else
+         printf("la variable B es diferente que C:%d\n",B,C);
+	} 
+	{
+	   if(A == 3)
+	     printf("la variable A es igual que 3:%d\n",A);
+        else
+         printf("la variable es A es Diferente que 3:%d\n", B);
+	} 
+	{  if(A*B==15)
+	     printf("la multiplicacion de A*B es igual a 15 :%d\n",A,B);
+       else
+         printf("la multiplicacion de A*B es diferente a 15:%d\n",A,B);
+	} 
+	{
+		if(C / B < A )
+	     printf("la divicion de C/B es menor que A :%d\n",A,B,C);
+       else
+         printf("la divicion de C/B es mayor que A :%d\n",A,B,C);
+		
+	}
+	{
+		if(C / B == -10                  )
+	     printf("la divicion de C/B es igual que -10 :%d\n",A,B);
+       else
+         printf("la divicion de C/B es diferente que -10:%d\n",A,B,C);
+	}
+	{  if(A + B + C == 5)
+	     printf("la suma de A+B+C es igual a 5 :%d\n",A,B);
+       else
+         printf("la suma de A+B+C es diferente a 5 :%d\n", B);
+	}
+	{ 
+	   if((A+B == 8) && (A-B == 2) )     
+	     printf("la operacion es igual 8 o 2 :%d\n",A,B);
+       else
+         printf("la opercacion es diferente a 8 o 2:%d\n",A,B);
+         
+	}
+	{	
+	    if((A+B == 8) || (A-B == 6))
+	     printf("la opercacion es diferente a 8 o 6:%d\n",A,B);
+       else
+         printf("la opercacion es diferente a 8 o 2:%d\n",A, B);
+	}
+	{
+		if((A > 3 && B > 3 && C < 3  ))
+	     printf("la variable A y B es mayor que 3 pero C es menor que 3:%d\n",A,B,C);
+       else
+         printf("la variable A y B es menor que 3 pero C es mayor que 3:%d\n",A, B,C);
+	}}
