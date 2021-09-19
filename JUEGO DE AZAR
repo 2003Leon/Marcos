@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <math.h> 
+#include <stdlib.h>
+
+int main(void){
+	int dinero;
+	int cantidad=0;
+	char FIN =0;
+	while(FIN!='s'&& FIN!='S'){
+    printf("indica la cantidad para la apuesta : \n");
+    scanf("%d", &dinero);
+   dinero=rand() %2;
+   if (dinero==0){
+     printf("SOL Usuario gana el doble: \n");
+     printf("ganador:%d\n" ,cantidad*2);   }
+    else{
+      printf("AGUILA juego perdido %d \n",cantidad);
+    }
+    printf(" ¿Quieres salir? S/N \n");
+    scanf("%c",&FIN);
+	}
+    return 0;}
+
+
